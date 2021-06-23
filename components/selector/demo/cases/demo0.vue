@@ -11,7 +11,6 @@
     </md-field>
     <md-selector
       v-model="isSelectorShow"
-      default-value="2"
       :data="data[0]"
       max-height="320px"
       title="普通模式"
@@ -21,7 +20,8 @@
   </div>
 </template>
 
-<script>import {Selector, Field, FieldItem} from 'mand-mobile'
+<script>
+import {Selector, Field, FieldItem} from 'mand-mobile'
 
 export default {
   name: 'selector-demo',
@@ -94,4 +94,5 @@ export default {
     },
   },
 }
-</script>
+
+</script>
